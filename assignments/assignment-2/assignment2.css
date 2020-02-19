@@ -1,0 +1,25 @@
+/* Write your CSS here */
+ span{
+  height:80px;
+ }
+ .ff{
+  width:5.2%;
+  background-color:navy;
+  display:inline-block;
+  margin-left:2%;
+  margin-right:1%;
+ }
+ .gg{
+  width:45.9%;
+  background-color:skyblue;
+  display:inline-block;
+  margin-left:2%;
+  margin-right:2%;
+ }
+ .mm{
+  width:20.9%;background-color:navy;display:inline-block;margin-left:2%;margin-right:2%;
+  
+ }
+ .ll{
+  width:29.3%;background-color:skyblue;display:inline-block;margin-left:2%;margin-right:2%;
+ }
