@@ -1,0 +1,30 @@
+/* Write your CSS here */
+@import url("https://fonts.googleapis.com/css?family=Great+Vibes&display=swap");
+  .mm{
+      margin-left:4%;
+      height:100%;
+      width:25%;
+      background:white;
+      display:inline-block;
+      padding:1.5%;
+      border-radius:7%;
+      font-family: 'Great Vibes';
+      margin-bottom:4%;
+    }
+     .ll{
+  margin-left:4%;
+  font-family:normal;
+  }
+  .kk{
+    color:skyblue;
+  }
+  .o{
+    color:#787878;
+  }
+  .d{
+    color:#787878;
+  }
+  .gg{
+    background:whitesmoke;
+    padding:4%;
+  }
