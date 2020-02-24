@@ -1,0 +1,102 @@
+/* Write your CSS here */
+ @import url("https://fonts.googleapis.com/css?family=Noto+Sans+SC&display=swap");
+body{
+      background:AliceBlue;
+    }
+    .firsthead{
+        font-family: 'Noto Sans SC';
+        text-align:center;
+        margin-top:5%;
+        margin-bottom:4%;
+        font-weight:bold;
+    }
+    .firsthead2{
+        text-align:center;
+        font-size:100%;
+    }
+    .titles{
+        display:inline-block;
+        text-align:center;
+        height:28px;
+        padding:5px;
+        border:1px solid gray;
+        margin-left:40px;
+        font-size:14px;
+    }
+    .subtitles{
+        height:80px;
+        padding:10px;
+        width:100%;
+        display:inline-block;
+    }
+    .headings{
+        height:80px;
+        display:inline-block;
+        width:100%;
+        padding-top:10px;
+        margin-right:10px;
+        
+    }
+    .anothersubtitle{
+        height:100px;
+        width:100%;
+    }
+     .subheadings1{
+        height:40px;
+        width:28%;display:inline-block;
+        border-left:4px solid skyblue;        
+        text-align:left;
+        border-radius:4px;
+         background:white;
+         margin-left:20px;
+         padding-top:12px;
+         font-family: 'Noto Sans SC';
+    }
+    .subheading{
+        height:40px;
+        width:28%;
+        border-left:4px solid skyblue;        
+        text-align:left;
+        margin-left:20px;
+        border-radius:4px;
+         background:white;
+         display:inline-block;
+         padding-top:12px;
+         font-family: 'Noto Sans SC';
+    }
+    .coming{
+        margin-left:332px;
+        font-size:10px;
+        margin-top:-3px;
+    }
+    .lasttitle{ height:60px;
+        width:100%;
+        
+    }
+    .lasthead{
+         height:30px;
+        width:25%;
+        border-left:4px solid gray;
+        text-align:left;
+        margin-left: 170px;
+        border-radius:4px;
+         background:white;
+         display:inline-block;
+         padding-top:10px;
+         font-family: 'Noto Sans SC';
+    }
+    .submit{
+        height:30px;
+        background-color:orange;
+        margin-left:40%;
+        display:inline-block;
+        color:white;
+        padding-left:4%;
+          padding-right:4%;
+          padding-top:1%;
+    }
+    .lastsen{
+        font-size:10px;
+        margin-left:42%;
+        margin-top:1px;
+    }
