@@ -1,0 +1,12 @@
+ #firstpart{
+      text-align:center;font-size:24px;background-color:gray;padding-top:15px;padding-bottom:15px;
+    }
+    #button1{
+      width:80px;color:white;font-size:12px;background:dodgerblue;border-radius:3px;padding-right:3px;margin-bottom:5px;padding-top:3px;padding-bottom:3px;
+    }
+    #secondpart{
+      text-align:center;font-size:24px;background-color:gray;padding-top:4px;padding-top:15px;padding-bottom:15px;
+    }
+    #button2{
+    width:80px;color:white;font-size:12px;background:dodgerblue;border-radius:3px;padding-right:3px;padding-top:3px;padding-bottom:3px;
+    }
