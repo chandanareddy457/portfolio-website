@@ -1,36 +1,39 @@
  #firstpart{
-      height:160px;background-color:white;border-bottom:1px solid gainsboro;padding-top:3px;
+      background-color:white;border-bottom:1px solid gainsboro;padding-top:10px;padding-bottom:5px;
     }
     #firsthead{
-      height:150px;background:gainsboro;text-align:center;border-radius:5px;
+      background:gainsboro;text-align:center;border-radius:5px;
     }
     #firstcontent{
-      height:150px;background:white;text-align:left;
+      background:white;text-align:left;
     }
     #secondpart{
-      height:160px;background-color:white;border-bottom:1px solid gainsboro;padding-top:3px;
+      background-color:white;border-bottom:1px solid gainsboro;padding-top:10px;padding-bottom:5px;
     }
     #secondhead{
-      height:150px;background:white;text-align:left;
+      background:white;text-align:left;
     }
     #secondcontent{
-      height:150px;background:gainsboro;text-align:center;border-radius:5px;
+      background:gainsboro;text-align:center;border-radius:5px;
     }
     #thirdpart{
-      height:160px;background-color:white;border-bottom:1px solid gainsboro;padding-top:3px;
+      background-color:white;border-bottom:1px solid gainsboro;padding-top:10px;padding-bottom:5px;
     }
     #thirdhead{
-    height:150px;background:gainsboro;text-align:center;border-radius:5px;
+    background:gainsboro;text-align:center;border-radius:5px;
     }
     #thirdcontent{
-      height:150px;background:white;text-align:left;
+      background:white;text-align:left;
     }
     #fourthpart{
-      height:160px;background-color:white;border-bottom:1px solid gainsboro;padding-top:3px;
+    background-color:white;border-bottom:1px solid gainsboro;padding-top:10px;padding-bottom:5px;
     }
     #fourthhead{
-      height:150px;background:white;text-align:left;
+      background:white;text-align:left;
     }
      #fourthcontent{
-      height:150px;background:gainsboro;text-align:center;border-radius:5px;
+    background:gainsboro;text-align:center;border-radius:5px;
+    }
+    body{
+      padding:20px;
     }
