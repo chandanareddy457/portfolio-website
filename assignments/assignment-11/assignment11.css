@@ -1,0 +1,36 @@
+ #firstpart{
+      height:160px;background-color:white;border-bottom:1px solid gainsboro;padding-top:3px;
+    }
+    #firsthead{
+      height:150px;background:gainsboro;text-align:center;border-radius:5px;
+    }
+    #firstcontent{
+      height:150px;background:white;text-align:left;
+    }
+    #secondpart{
+      height:160px;background-color:white;border-bottom:1px solid gainsboro;padding-top:3px;
+    }
+    #secondhead{
+      height:150px;background:white;text-align:left;
+    }
+    #secondcontent{
+      height:150px;background:gainsboro;text-align:center;border-radius:5px;
+    }
+    #thirdpart{
+      height:160px;background-color:white;border-bottom:1px solid gainsboro;padding-top:3px;
+    }
+    #thirdhead{
+    height:150px;background:gainsboro;text-align:center;border-radius:5px;
+    }
+    #thirdcontent{
+      height:150px;background:white;text-align:left;
+    }
+    #fourthpart{
+      height:160px;background-color:white;border-bottom:1px solid gainsboro;padding-top:3px;
+    }
+    #fourthhead{
+      height:150px;background:white;text-align:left;
+    }
+     #fourthcontent{
+      height:150px;background:gainsboro;text-align:center;border-radius:5px;
+    }
