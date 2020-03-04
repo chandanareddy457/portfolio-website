@@ -12,10 +12,10 @@
       background:black;
       color:white;
       border-radius:10px;
+      overflow:hidden;
     }
     .background1{
-      background:linear-gradient(135deg,#72edf2 10%,#5151ef 100%);
-      opacity:0.7;
+      background:linear-gradient(135deg,#72edf283 10%,#5151ef 100%);
       height:350px;
       margin-top:-30px;
       margin-left:-15px;
@@ -23,6 +23,9 @@
       border-radius:10px;
       margin-bottom:-8px;
       
+    }
+    .value{
+      text-align:right;
     }
     .location{
       display:inline;
@@ -38,9 +41,9 @@
       display:inline;padding-top:-20px;
     }
     .sunblack{
-      background:white;
       color:black;
       border-radius:5px;
+      background:white;
     }
     .report{
       padding-top:50px;
@@ -64,4 +67,8 @@
     }
     .deg{
       font-size:50px;font-weight:bold;
+    }
+    .maincontainer{
+      background:black;
+      border-radius:15px;
     }

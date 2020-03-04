@@ -12,6 +12,78 @@
     <script src="../../bootstrap/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="index.css" />
   </head>
-
-  <body></body>
+  <style>
+   .header{
+     background:black;
+   }.mainhead{
+     text-align:center;
+     padding-top:30px;
+     padding-bottom:30px;
+   }.images{
+     text-align:center;
+     padding-top:10px;
+     padding-bottom:10px;
+   }.image{
+     height:80px;width:80px;
+   }.text{
+     text-align:center;
+     font-size:12px;
+     padding-bottom:15px;
+     padding-left:25px;
+     padding-right:25px;
+   }.cards{
+     padding-top:5px;
+     padding-bottom:5px;
+   }
+  </style>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <!--<div class="col-12 header">-->
+        <!--  <nav>-->
+        <!--    <img style="background:white" src="assets/github-logo.svg" alt="gitlogo">-->
+        <!--    <button>Sign Up</button>-->
+        <!--  </nav>-->
+        <!--</div>-->
+        <div class="col-12 mb-5 bg-light rounded mainhead">
+          <h3>Topics</h3>
+          <p>Browse popular topics on github</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-4 col-lg-4 cards">
+          <div class="card h-100">
+            <div class="images">
+              <img class="image" src="assets/opengl.png" alt="opengl">
+            </div>
+            <div class="text">
+            <h6>OpenGL</h6>
+            <p>OpenGL is a software interface that allows a programmer to communicate with graphics hardware</p>
+            </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 col-lg-4 cards">
+        <div class="card h-100">
+            <div class="images">
+              <img class="image" src="assets/flask.png" alt="flask">
+            </div>
+            <div class="text">
+            <h6>Flask</h6>
+            <p>Flask is a web frame work for phython based on the Werkzung toolkit.</p>
+           </div>
+         </div>
+    </div>
+    <div class="col-12 col-md-4 col-lg-4 cards">
+        <div class="card h-100">
+            <div class="images">
+              <img class="image" src="assets/gradle.png" alt="gradle">
+            </div>
+            <div class="text">
+            <h6>Gradle</h6>
+            <p>Gradle is an open source build tool that helps team build ,automate and deliver better software,faster</p>
+           </div>
+         </div>
+    </div>
+   </div>
+  </body>
 </html>
