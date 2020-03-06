@@ -13,11 +13,24 @@
     <link rel="stylesheet" type="text/css" href="index.css" />
   </head>
   <style>
+  .margin{
+    padding-left:0;
+    padding-right:0;
+    margin-left:0;
+    margin-right:0;
+  }
   p{
     padding:0;
+  }.githublogo{
+    background:white;border-radius:50%;margin-right:60%;-webkit-filter:invert(100%);
+  }.githublogolg{
+    background:white;border-radius:50%;-webkit-filter:invert(100%);
+  }.signup{
+    color:white;border:1px solid white;border-radius:5px;padding:5px;font-size:14px;margin-top:15px;
   }
    .header{
      background:black;
+     color:white;
    }.mainhead{
      text-align:center;
      padding-top:30px;
@@ -55,17 +68,78 @@
      color:dodgerblue;
      background:AliceBlue;
      display:inline;
+   }.liitem{
+     display:inline;color:dodgerblue;background:AliceBlue;font-size:15px;padding-left:5px;
+   }.popular{
+     padding-left:20px;
+   }.liitems{
+     display:inline;font-size:15px;opacity:0.8;text-align:center;margin-left:15px;
+   }
+   .liitems1{
+     display:inline;font-size:15px;text-align:center;margin-left:15px;border-bottom:2px solid blue;padding-bottom:16px;
    }
   </style>
   <body>
-    <div class="container-fluid">
+    <div class="container">
       <div class="row">
-        <!--<div class="col-12 header">-->
-        <!--  <nav>-->
-        <!--    <img style="background:white" src="assets/github-logo.svg" alt="gitlogo">-->
-        <!--    <button>Sign Up</button>-->
-        <!--  </nav>-->
-        <!--</div>-->
+        <div class="col-12 header d-lg-none">
+          <nav class="navbar navbar-dark">
+            <img class="githublogo" src="assets/github-logo.svg" alt="gitlogo">
+             <span class="signup">Sign up</span>
+            <span class="navbar-toggler-icon"></span>
+          </nav>
+        </div>
+        </div>
+       <div class="col-12 d-sm-none d-lg-block header">
+         <nav class="navbar navbar-expand-lg margin">
+          <img class="githublogolg" src="assets/github-logo.svg" alt="gitlogo">
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+               <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle header" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Why Github?
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link header" href="#">Enterprise<span class="sr-only">(current)</span></a>
+              </li>
+               <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle header" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Explore
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link header" href="#">Marketplace</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle header" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Pricing
+                </a>
+              </li>
+              <li class="nav-item">
+                <form class="form-inline">
+                  <input class="form-control mr-sm-2" style="background:whitesmoke" type="search" placeholder="SearchGithub" aria-label="Search">               
+                  </form>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link header" href="#">Sign in</a>
+              </li>
+                <li class="nav-item">
+                  <span class="signup" style="margin-top:10px">Sign up</span>
+                </li>
+            </ul>
+          </div>
+        </nav>
+       </div> 
+       <div class="row">
+       <div class="col-12" style="text-align:center;opacity:0.5">Explore</div>
+       <ul type="none">
+      <li class="liitems1">Topics</li>
+      <li class="liitems">Trending</li>
+      <li class="liitems">Collections</li>
+      <li class="liitems">Events</li></ul>
+        </div>
+        <div class="row">
         <div class="col-12 mb-5 bg-light rounded mainhead">
           <h3>Topics</h3>
           <p>Browse popular topics on github</p>
@@ -324,14 +398,22 @@
     <div class="col-lg-4">
     <div class="row">
     <div class="col-lg-12">
-      <h6>Popular topics</h6>
-      <button type="button" class="btn btn-AliceBlue">react</button><div class="topic"><span> javascript </span></div><span class="topic"> css </span> <span class="topic"> python </span> <span class="topic"> ecommerce </span>
-      <span class="topic"> python3 </span> <span class="topic"> ecommerce-platform </span> <span class="topic"> nci-itcr </span> <span class="topic"> solidus-extensions</span>
-    </div>
+      <h6 class="popular">Popular topics</h6>
+      <ul type="none"><li class="liitem">react</li>
+      <li class="liitem">javascript</li>
+      <li class="liitem">css</li>
+      <li class="liitem">python</li>
+      <li class="liitem">html</li>
+      <li class="liitem">ecommerce</li>
+      <li class="liitem">python3</li>
+      <li class="liitem">ecommerce-platform</li>
+      <li class="liitem">nci-ictr</li>
+      <li class="liitem">solidus-extensions</li></ul>
     </div>
     </div>
    </div>
    </div>
    </div>
-  </body>
+   </div>
+ </body>
 </html>
