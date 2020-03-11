@@ -1,0 +1,11 @@
+
+@media(max-width:500px){
+    body{
+        color:pink;
+    }
+}
+media(width:768px){
+    body{
+        color:pink;
+    }
+}
