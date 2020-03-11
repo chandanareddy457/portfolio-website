@@ -19,11 +19,14 @@
     .work{
         width:50%;
         display:inline-block;
-        padding-left:50px;
+        padding-right:20px;
     }
     .startup{
         width:50%;
         display:inline-block;
-        padding-right:50px;
+        padding-left:20px;
     }
+}
+.total{
+    padding:30px;
 }
