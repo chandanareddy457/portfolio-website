@@ -1,11 +1,42 @@
-
-@media(max-width:500px){
-    body{
-        color:pink;
+*{
+    padding:0px;
+    margin:0px;
+    font-size:0px;
+    box-sizing:border-box;
+}
+ .box{
+        background:indigo;
+        border:3px solid yellow;
+        height:200px;
+        width:100%;
+        display:inline-block;
+    }
+@media(min-width:768px){
+    .box{
+        background:green;
+        width:50%;
+    }
+@media(min-width:992px){
+    .box{
+        background:pink;
+        width:33%;
+        border:3px dashed yellow;
     }
 }
-media(width:768px){
-    body{
-        color:pink;
-    }
-}
+/*@media not all and (min-width:600px){*/
+/*    body{*/
+/*        color:red;*/
+/*        background:indigo;*/
+/*    }*/
+/*}*/
+/*@media(min-width:992px){*/
+/*    body{*/
+/*        color:indigo;*/
+/*    }*/
+/*}*/
+/*    @media only screen and (orientation:landscape)*/
+/*    {*/
+/*        body{*/
+/*            font-size:35px;*/
+/*        }*/
+/*    }*/

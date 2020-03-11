@@ -1,0 +1,21 @@
+.medium{
+    display:none;
+}
+.small{
+    display:none;
+}
+@media(min-width:768px){
+    .medium{
+        background:gray;
+        display:block;
+    }
+    .small{
+        display:block;
+    }
+}
+@media(max-width:767px)
+{
+    .small{
+        display:block;
+    }
+}
