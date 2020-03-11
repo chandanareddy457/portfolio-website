@@ -1,4 +1,9 @@
-@media(max-width:767px)
+.content{
+    opacity:0.5;
+}
+.head{
+    text-align:center;
+}@media(max-width:767px)
 {
     .work{
         width:100%;
@@ -10,14 +15,15 @@
     }
 }
 @media(min-width:768px)
-{
+{ 
     .work{
-        width:48%;
+        width:50%;
         display:inline-block;
-        vertical-align:top;
+        padding-left:50px;
     }
     .startup{
-        width:48%;
+        width:50%;
         display:inline-block;
+        padding-right:50px;
     }
 }
